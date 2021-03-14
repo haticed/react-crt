@@ -1,3 +1,15 @@
+# changelog
+step 1 - `yarn add --dev gh-pages`
+
+step 2- then  scripts added tp packages.json
+        "predeploy": "yarn run build",
+        "deploy": "gh-pages -d build"
+
+step 3- "homepage": "https://haticed.github.io/react-crt"
+ 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
